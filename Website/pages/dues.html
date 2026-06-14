@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dues Information — Blue Rock Manor</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Blue Rock Manor Civic Association home"><span><span class="brand-name">Blue Rock Manor</span><span class="brand-subtitle">Civic Association</span></span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+        <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+          <a href="../index.html">Home</a><a href="about.html">About</a><a href="resources.html">Resident Resources</a><a href="newsletters.html">Newsletters</a><a class="active" href="dues.html">Dues</a><a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>Paying Your Annual Dues</h1>
+          <p>Annual dues help support newsletters, neighborhood communications, resident resources, and Civic Association activities.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container dues-page-grid">
+          <article class="dues-summary-card">
+            <p class="kicker">Annual Dues</p>
+            <h2>$25 per year</h2>
+            <p>Residents can pay annual dues by cash or check.</p>
+          </article>
+
+          <article class="dues-detail-card payment-card">
+            <h2>How to Pay</h2>
+            <div class="payment-detail-list">
+              <div>
+                <span>Checks Payable To</span>
+                <strong>Blue Rock Manor Civic Association</strong>
+              </div>
+              <div>
+                <span>Mailing Address</span>
+                <address>
+                  Blue Rock Manor Civic Association<br />
+                  PO Box 7161<br />
+                  Wilmington, DE 19803
+                </address>
+              </div>
+            </div>
+          </article>
+
+          <article class="dues-detail-card">
+            <h2>Questions?</h2>
+            <p>Contact the Blue Rock Manor Civic Association with dues questions.</p>
+            <a class="btn btn-primary" href="contact.html">Contact BRMCA</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><a class="brand footer-brand" href="../index.html"><span><span class="brand-name">Blue Rock Manor</span><span class="brand-subtitle">Civic Association</span></span></a><p>Blue Rock Manor Civic Association serves residents of Blue Rock Manor in North Wilmington, Delaware.</p></div>
+        <div><h3>Connect</h3><p><a href="mailto:brmca19803@gmail.com">brmca19803@gmail.com</a></p><p>P.O. Box 7161<br />Wilmington, DE 19803</p></div>
+        <div><h3>Quick Links</h3><a href="about.html">About Blue Rock Manor</a><a href="resources.html">Resident Resources</a><a href="newsletters.html">Newsletters</a><a href="dues.html">Dues Information</a><a href="contact.html">Contact Us</a></div>
+        <div><h3>Email Updates</h3><button id="signupBtn" class="btn btn-secondary" type="button">Join Our Email List</button></div>
+      </div>
+      <div class="footer-bar"><span>&copy; 2026 Blue Rock Manor Civic Association</span><span class="footer-credit">Website design by Kyle Glazier</span></div>
+    </footer>
+
+    <div id="signupModal" class="modal" aria-hidden="true"><div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" type="button" aria-label="Close">&times;</button><h3 id="modalTitle">Join the Resident Email List</h3><form id="modalSignupForm"><label><span>First Name</span><input name="first" autocomplete="given-name" placeholder="First Name" required /></label><label><span>Last Name</span><input name="last" autocomplete="family-name" placeholder="Last Name" required /></label><label><span>Email Address</span><input name="email" type="email" autocomplete="email" placeholder="Email Address" required /></label><div class="actions"><button type="submit" class="btn btn-primary">Join Our Email List</button><button type="button" id="cancel" class="btn btn-outline">Cancel</button></div></form><p class="note">Your signup will be sent securely to the Blue Rock Manor mailing list.</p></div></div>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
