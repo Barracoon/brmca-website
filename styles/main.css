@@ -804,7 +804,13 @@ button:disabled,
   color: var(--white);
   background:
     linear-gradient(90deg, rgba(3, 31, 61, 0.92), rgba(8, 44, 84, 0.76)),
-    url("../assets/neighborhood-street.jpg") center / cover;
+    url("../assets/neighborhood-aerial.jpg") center 46% / cover;
+}
+
+.newsletter-detail-hero {
+  background:
+    linear-gradient(90deg, rgba(3, 31, 61, 0.92), rgba(8, 44, 84, 0.7)),
+    url("../assets/neighborhood-library.jpg") 42% center / cover;
 }
 
 .page-hero h1 {
