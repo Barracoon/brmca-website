@@ -379,14 +379,18 @@ input:focus-visible {
   padding-bottom: clamp(20px, 4vw, 34px);
 }
 
+.email-signup-section .section-title {
+  margin-bottom: 24px;
+}
+
 .communication-grid {
   display: grid;
-  grid-template-columns: minmax(300px, 1.15fr) minmax(260px, 0.85fr);
+  grid-template-columns: minmax(320px, 1.2fr) minmax(280px, 0.8fr);
   gap: 24px;
   align-items: stretch;
 }
 
-.homepage-signup-card {
+.feature-card.homepage-signup-card {
   min-height: auto;
   padding: clamp(28px, 4vw, 42px);
   text-align: left;
@@ -404,13 +408,18 @@ input:focus-visible {
   text-align: center;
 }
 
-.facebook-card {
+.feature-card.facebook-card {
   display: flex;
   min-height: auto;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  background: rgba(255, 255, 255, 0.78);
   border-top: 5px solid var(--sage-dark);
   box-shadow: 0 12px 32px rgba(8, 44, 84, 0.08);
+}
+
+.facebook-card h3 {
+  color: var(--navy);
 }
 
 .facebook-card p:not(.kicker) {
@@ -419,6 +428,7 @@ input:focus-visible {
 
 .facebook-card .btn {
   align-self: flex-start;
+  margin-top: auto;
 }
 
 .feature-card,
@@ -430,6 +440,11 @@ input:focus-visible {
 
 .feature-card {
   min-height: 330px;
+}
+
+.communication-card {
+  min-height: auto;
+  padding: clamp(28px, 4vw, 42px);
 }
 
 .feature-card h3 {
