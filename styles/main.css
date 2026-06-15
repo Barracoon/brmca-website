@@ -174,8 +174,8 @@ input:focus-visible {
 }
 
 .hero-media {
-  background-image: url("../assets/neighborhood-street.jpg");
-  background-position: center;
+  background-image: url("../assets/neighborhood-aerial.jpg");
+  background-position: center 48%;
   background-size: cover;
 }
 
@@ -457,7 +457,7 @@ input:focus-visible {
   color: var(--white);
   background:
     linear-gradient(rgba(8, 44, 84, 0.2), rgba(8, 44, 84, 0.62)),
-    url("../assets/neighborhood-water.jpg") center / cover;
+    url("../assets/neighborhood-library.jpg") 42% center / cover;
   box-shadow: 0 16px 26px rgba(8, 44, 84, 0.24);
 }
 
@@ -1387,6 +1387,10 @@ button:disabled,
 
   .hero h1 {
     font-size: clamp(3rem, 16vw, 4.2rem);
+  }
+
+  .hero-media {
+    background-position: 52% center;
   }
 
   .intro-grid,
