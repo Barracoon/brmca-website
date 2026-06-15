@@ -1336,6 +1336,12 @@ button:disabled,
   line-height: 1.45;
 }
 
+.payment-detail-list p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-weight: 650;
+}
+
 @media (max-width: 980px) {
   .header-inner {
     min-height: 78px;
