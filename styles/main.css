@@ -809,6 +809,17 @@ button:disabled,
   text-transform: none;
 }
 
+.footer-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.7);
+  text-underline-offset: 3px;
+}
+
+.footer-credit a:hover {
+  text-decoration-color: currentColor;
+}
+
 .modal {
   position: fixed;
   inset: 0;
