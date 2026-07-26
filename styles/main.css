@@ -1456,6 +1456,10 @@ button:disabled,
     grid-template-columns: 1fr;
   }
 
+  .updates-card .newsletter-layout {
+    grid-template-columns: 1fr;
+  }
+
   .newsletter-signup-callout {
     align-items: flex-start;
     flex-direction: column;
