@@ -140,11 +140,10 @@ input:focus-visible {
 .main-nav a {
   position: relative;
   color: var(--white);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 600;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.015em;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .main-nav a:focus-visible {
@@ -178,9 +177,9 @@ input:focus-visible {
   border-radius: 4px;
   padding: 8px 12px;
   font-family: inherit;
+  font-size: 0.84rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.015em;
 }
 
 .hero {
@@ -224,10 +223,9 @@ input:focus-visible {
 .card-label {
   margin: 0 0 12px;
   color: var(--sage-dark);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-size: 0.84rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
 }
 
 .hero .eyebrow {
@@ -271,12 +269,11 @@ input:focus-visible {
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
   font-family: inherit;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 600;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.01em;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   cursor: pointer;
   transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, color 180ms ease, transform 180ms ease;
 }
@@ -385,11 +382,10 @@ input:focus-visible {
 
 .section-title h2 {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .round-icon {
@@ -541,9 +537,8 @@ input:focus-visible {
 }
 
 .newsletter-cover small {
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.025em;
 }
 
 .signup-card {
@@ -556,8 +551,7 @@ input:focus-visible {
 .signup-card h3 {
   color: var(--white);
   font-weight: 600;
-  letter-spacing: 0.045em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
 }
 
 .signup-card p,
@@ -581,10 +575,9 @@ input:focus-visible {
 .signup-form label span,
 .modal form label span {
   color: inherit;
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.01em;
 }
 
 .signup-card .signup-form label span {
@@ -668,10 +661,9 @@ button:disabled,
 .report-box h3 {
   margin: 0 0 4px;
   color: var(--navy);
-  font-size: 0.86rem;
-  font-weight: 700;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
 }
 
 .phone-list {
@@ -768,10 +760,9 @@ button:disabled,
 .footer-grid h3 {
   margin: 0 0 16px;
   color: var(--sage);
-  font-size: 0.86rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .footer-grid p {
@@ -797,11 +788,10 @@ button:disabled,
   padding: 14px 24px;
   color: var(--white);
   background: var(--sage-dark);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.02em;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .footer-credit {
@@ -1023,10 +1013,9 @@ button:disabled,
 .glance-list dt {
   margin-bottom: 4px;
   color: var(--navy);
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
 }
 
 .glance-list dd {
@@ -1453,10 +1442,9 @@ button:disabled,
   display: block;
   margin-bottom: 5px;
   color: var(--muted);
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
 }
 
 .payment-detail-list strong,
@@ -1474,11 +1462,10 @@ button:disabled,
 
 .venmo-payment-note strong {
   color: var(--navy);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
   line-height: 1.45;
-  text-transform: uppercase;
 }
 
 .venmo-payment-note span {
