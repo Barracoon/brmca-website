@@ -52,6 +52,7 @@ h3 {
 }
 
 p {
+  margin: 0 0 1rem;
   text-wrap: pretty;
 }
 
@@ -638,7 +639,8 @@ button:disabled,
 }
 
 .section-intro {
-  margin: -14px 0 34px;
+  max-width: 52ch;
+  margin: -14px auto 34px;
   text-align: center;
 }
 
@@ -1131,7 +1133,7 @@ button:disabled,
 
 .report-action-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -1173,6 +1175,7 @@ button:disabled,
 }
 
 .newsletter-tile.featured {
+  grid-template-columns: minmax(180px, 0.46fr) minmax(0, 1fr);
   align-items: center;
   border-top: 5px solid var(--sage-dark);
   box-shadow: var(--shadow-sm);
@@ -1180,6 +1183,14 @@ button:disabled,
 
 .newsletter-tile .newsletter-cover {
   min-height: 280px;
+}
+
+.newsletter-tile h2 {
+  max-width: 18ch;
+}
+
+.newsletter-tile p {
+  margin: 0 0 20px;
 }
 
 .newsletter-section > .kicker {
@@ -1406,6 +1417,27 @@ button:disabled,
   border-radius: var(--radius-sm);
 }
 
+.payment-detail-list .venmo-payment {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  align-items: center;
+  gap: 22px;
+  padding: 20px;
+  background: rgba(0, 140, 255, 0.055);
+  border-color: rgba(0, 140, 255, 0.22);
+}
+
+.venmo-payment img {
+  width: 100%;
+  border: 1px solid rgba(8, 44, 84, 0.12);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.venmo-payment-copy .btn {
+  margin-top: 14px;
+}
+
 .payment-detail-list span {
   display: block;
   margin-bottom: 5px;
@@ -1584,6 +1616,10 @@ button:disabled,
   .actions {
     flex-direction: column;
   }
+
+  .payment-detail-list .venmo-payment {
+    grid-template-columns: 120px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 480px) {
@@ -1625,6 +1661,19 @@ button:disabled,
   .dues-callout .btn,
   .newsletter-signup-callout .btn,
   .contact-signup-form .btn {
+    width: 100%;
+  }
+
+  .payment-detail-list .venmo-payment {
+    grid-template-columns: 1fr;
+  }
+
+  .venmo-payment img {
+    width: min(220px, 100%);
+    margin: 0 auto;
+  }
+
+  .venmo-payment-copy .btn {
     width: 100%;
   }
 }
